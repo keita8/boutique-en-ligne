@@ -87,7 +87,7 @@
         
         html {
             font-family: var(--primary-font);
-            font-size: 1rem;
+            font-size: 1.2rem;
             scroll-behavior: smooth;
             background-color: var(--flashwhite-color);
             /* overflow: hidden; */
@@ -106,7 +106,7 @@
         
         body {
             font-family: var(--primary-font);
-            font-size: 1rem;
+            font-size: 1.2rem;
             background-color: var(--flashwhite-color);
             font-weight: 400;
             line-height: 1.8;
@@ -178,7 +178,7 @@ ion-icon {
         }
         
         i {
-            font-size: 24px;
+            font-size: 22px;
         }
         
         a {
@@ -869,7 +869,7 @@ ion-icon {
             }
             i {
                 display: block;
-                font-size: 28px;
+                font-size: 25px;
                 cursor: pointer !important;
             }
             .branding {
@@ -879,14 +879,6 @@ ion-icon {
             }
             #page>header>div>div>div>div.header-right>div>ul>li:nth-child(1) {
                 display: none;
-            }
-        }
-        
-        @media (min-width:768px) and (max-width:1023px) {
-            i {
-                display: block;
-                font-size: 34px;
-                cursor: pointer !important;
             }
         }
         
@@ -949,7 +941,7 @@ ion-icon {
         @media (min-width: 1200px) {
             i {
                 display: block;
-                font-size: 28px;
+                font-size: 30px;
                 cursor: pointer !important;
             }
             .container.wide {

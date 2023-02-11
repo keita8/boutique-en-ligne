@@ -882,10 +882,10 @@ ion-icon {
             }
         }
         
-        @media (min-width:768px) and (max-width:1023px) {
+        @media (min-width:768px) {
             i {
                 display: block;
-                font-size: 34px;
+                font-size: Epx;
                 cursor: pointer !important;
             }
         }

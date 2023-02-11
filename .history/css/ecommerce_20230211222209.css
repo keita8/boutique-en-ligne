@@ -87,7 +87,7 @@
         
         html {
             font-family: var(--primary-font);
-            font-size: 1rem;
+            font-size: 10px;
             scroll-behavior: smooth;
             background-color: var(--flashwhite-color);
             /* overflow: hidden; */
@@ -106,11 +106,14 @@
         
         body {
             font-family: var(--primary-font);
-            font-size: 1rem;
+            font-size: 1.6rem;
             background-color: var(--flashwhite-color);
             font-weight: 400;
             line-height: 1.8;
+            /* overflow: hidden; */
+            /* height: 300vh; */
             color: var(--dark-color);
+            /* background-color: var(--flashwhite-color); */
         }
         
          :focus-visible {
@@ -841,12 +844,22 @@ ion-icon {
             justify-content: center;
             align-items: center;
         }
+        
+        i {
+            display: block;
+            font-size: 22px;
+            cursor: pointer !important;
+        }
+        
+        .main.menu nav ul>li {
+            padding-
+        }
         /*-------------- MEDIA QUERIES---------------*/
         
         @media (max-width:320px) {
             i {
                 display: block;
-                font-size: 22px;
+                font-size: 2px;
                 cursor: pointer !important;
             }
             .mobile-menu .wrap {
@@ -869,7 +882,7 @@ ion-icon {
             }
             i {
                 display: block;
-                font-size: 28px;
+                font-size: 30px;
                 cursor: pointer !important;
             }
             .branding {
@@ -882,20 +895,7 @@ ion-icon {
             }
         }
         
-        @media (min-width:768px) and (max-width:1023px) {
-            i {
-                display: block;
-                font-size: 34px;
-                cursor: pointer !important;
-            }
-        }
-        
         @media (min-width: 992px) {
-            i {
-                display: block;
-                font-size: 28px;
-                cursor: pointer !important;
-            }
             .menu-trigger {
                 display: none;
             }
@@ -947,11 +947,6 @@ ion-icon {
         }
         
         @media (min-width: 1200px) {
-            i {
-                display: block;
-                font-size: 28px;
-                cursor: pointer !important;
-            }
             .container.wide {
                 --mx-width: 1720px;
                 --gutter: 40px;

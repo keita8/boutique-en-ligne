@@ -882,13 +882,7 @@ ion-icon {
             }
         }
         
-        @media (min-width:768px) and (max-width:1023px) {
-            i {
-                display: block;
-                font-size: 34px;
-                cursor: pointer !important;
-            }
-        }
+        @media (min-width:768px) {}
         
         @media (min-width: 992px) {
             i {
