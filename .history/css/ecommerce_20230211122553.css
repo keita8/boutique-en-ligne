@@ -579,15 +579,7 @@ h4 {
     display: none;
 }
 
-.search-container .search-field::-webkit-search-results-button {
-    display: none;
-}
-
-.search-container .search-field::-webkit-search-results-decoration {
-    display: none;
-}
-
-.search-container .search-field::-webkit-search-decoration {
+.search-container .search-field::-webkit-search {
     display: none;
 }
 

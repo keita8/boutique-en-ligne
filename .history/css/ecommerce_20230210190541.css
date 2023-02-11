@@ -579,18 +579,6 @@ h4 {
     display: none;
 }
 
-.search-container .search-field::-webkit-search-results-button {
-    display: none;
-}
-
-.search-container .search-field::-webkit-search-results-decoration {
-    display: none;
-}
-
-.search-container .search-field::-webkit-search-decoration {
-    display: none;
-}
-
 .search-container .search-submit {
     position: absolute;
     top: 50%;
