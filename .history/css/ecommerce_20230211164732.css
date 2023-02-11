@@ -817,14 +817,6 @@ ion-icon {
         align-items: center;
         justify-content: center;
     }
-    
-    .child-trigger-text {
-        margin-right: auto;
-    }
-    
-    .child-trigger-btn {
-        margin-left: auto;
-    }
     /*-------------- MEDIA QUERIES---------------*/
     
     @media (min-width: 992px) {

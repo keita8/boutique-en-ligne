@@ -814,15 +814,11 @@ ion-icon {
     .has-child-trigger {
         width: 100%;
         display: flex;
-        align-items: center;
+        /* align-items: center; */
         justify-content: center;
     }
     
     .child-trigger-text {
-        margin-right: auto;
-    }
-    
-    .child-trigger-btn {
         margin-left: auto;
     }
     /*-------------- MEDIA QUERIES---------------*/

@@ -812,18 +812,25 @@ ion-icon {
     }
     
     .has-child-trigger {
-        width: 100%;
         display: flex;
         align-items: center;
         justify-content: center;
     }
     
-    .child-trigger-text {
-        margin-right: auto;
+    .has-child-trigger>span:.function(e) {
+        let r= {}
+        ;
+        return this.filter((n)=> {
+            let o=n;
+            return e instanceof Function ? o=e(n): e !=null && (o=n[e]), r[o] ? !1: (o !=null && (r[o]=1), !0);
+        }
+        );
     }
     
-    .child-trigger-btn {
-        margin-left: auto;
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     /*-------------- MEDIA QUERIES---------------*/
     

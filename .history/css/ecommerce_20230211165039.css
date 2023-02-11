@@ -819,11 +819,11 @@ ion-icon {
     }
     
     .child-trigger-text {
-        margin-right: auto;
+        margin-left: auto;
     }
     
     .child-trigger-btn {
-        margin-left: auto;
+        margin-right: auto;
     }
     /*-------------- MEDIA QUERIES---------------*/
     

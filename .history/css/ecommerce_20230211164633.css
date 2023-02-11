@@ -812,18 +812,13 @@ ion-icon {
     }
     
     .has-child-trigger {
-        width: 100%;
         display: flex;
         align-items: center;
         justify-content: center;
     }
     
-    .child-trigger-text {
-        margin-right: auto;
-    }
-    
-    .child-trigger-btn {
-        margin-left: auto;
+    .has-child-trigger>span:first-child {
+        justify-content: flex-start;
     }
     /*-------------- MEDIA QUERIES---------------*/
     
