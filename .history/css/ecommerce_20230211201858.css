@@ -797,7 +797,7 @@ ion-icon {
         display: flex;
         justify-content: space-between;
         align-items: baseline;
-        margin-block-start: 30px;
+        margin-block-start: 20px;
     }
     
     .mobile-logo .branding {

@@ -190,9 +190,7 @@ ion-icon {
         -webkit-tap-highlight-color: transparent;
     }
     
-    a:is(:hover,
-     :focus-visible,
-    .active) {
+    a:is(:hover {
         color: var(--green-midnight);
     }
     
@@ -797,7 +795,6 @@ ion-icon {
         display: flex;
         justify-content: space-between;
         align-items: baseline;
-        margin-block-start: 30px;
     }
     
     .mobile-logo .branding {

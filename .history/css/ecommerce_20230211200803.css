@@ -191,8 +191,7 @@ ion-icon {
     }
     
     a:is(:hover,
-     :focus-visible,
-    .active) {
+    ) {
         color: var(--green-midnight);
     }
     
@@ -797,7 +796,6 @@ ion-icon {
         display: flex;
         justify-content: space-between;
         align-items: baseline;
-        margin-block-start: 30px;
     }
     
     .mobile-logo .branding {

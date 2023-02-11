@@ -630,6 +630,8 @@ ion-icon {
     }
     
     .mobile-menu {
+        margin-block-start: 5px;
+        padding-block-start: 5px;
         position: fixed;
         top: 0;
         left: 0;
@@ -797,7 +799,6 @@ ion-icon {
         display: flex;
         justify-content: space-between;
         align-items: baseline;
-        margin-block-start: 30px;
     }
     
     .mobile-logo .branding {
