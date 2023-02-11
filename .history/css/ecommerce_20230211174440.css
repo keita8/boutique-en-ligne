@@ -198,6 +198,10 @@ ion-icon {
         color: var(--dark-color);
     }
     
+    .branding a:hover {
+        color: var(--dark-color);
+    }
+    
     img {
         max-width: 100%;
         vertical-align: middle;
@@ -833,12 +837,6 @@ ion-icon {
     
     .mobile-menu .main.menu nav {
         flex-grow: 1;
-    }
-    
-    .branding {
-        margin-top: 10px;
-        justify-content: center;
-        align-items: center;
     }
     /*-------------- MEDIA QUERIES---------------*/
     
