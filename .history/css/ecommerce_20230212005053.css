@@ -846,7 +846,7 @@ ion-icon {
         }
         
         .main.menu {
-            margin-block: 70px;
+            margin-block-start: 20px;
         }
         /*-------------- MEDIA QUERIES---------------*/
         
