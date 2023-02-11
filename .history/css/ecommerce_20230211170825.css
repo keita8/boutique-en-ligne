@@ -677,15 +677,17 @@ ion-icon {
     }
     
     .mobile-menu .close-trigger {
+        /* position: absolute;
+    top: 0px;
+    right: 20px; */
         width: 35px;
         height: 35px;
         border-radius: var(--radius-circle);
-        /* background-color: var(--grey-color);
-        color: var(--flashwhite-color); */
+        background-color: var(--grey-color);
+        color: var(--flashwhite-color);
         display: flex;
         justify-content: center;
         align-items: center;
-        cursor: pointer !important;
     }
     
     .mobile-menu .main.menu nav>ul>li>a {
@@ -775,8 +777,8 @@ ion-icon {
         right: 0;
         top: 50%;
         transform: translateY(-50%);
-        /* display: flex;
-        align-items: center;
+        display: flex;
+        /* align-items: center;
         justify-content: center; */
     }
     

@@ -685,7 +685,7 @@ ion-icon {
         display: flex;
         justify-content: center;
         align-items: center;
-        cursor: pointer !important;
+        cursor: pointer;
     }
     
     .mobile-menu .main.menu nav>ul>li>a {

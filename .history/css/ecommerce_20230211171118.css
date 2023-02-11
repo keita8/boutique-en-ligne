@@ -680,12 +680,11 @@ ion-icon {
         width: 35px;
         height: 35px;
         border-radius: var(--radius-circle);
-        /* background-color: var(--grey-color);
-        color: var(--flashwhite-color); */
+        background-color: var(--grey-color);
+        color: var(--flashwhite-color);
         display: flex;
         justify-content: center;
         align-items: center;
-        cursor: pointer !important;
     }
     
     .mobile-menu .main.menu nav>ul>li>a {
