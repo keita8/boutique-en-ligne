@@ -754,7 +754,7 @@ ion-icon {
         .mobile-menu .button a:hover:last-child {
             background-color: var(--flashwhite-color);
             color: var(--dark-color);
-            margin-block-end: 40px;
+            margin-block-end: ;
         }
         
         .mobile-menu .wrap .main-menu {
