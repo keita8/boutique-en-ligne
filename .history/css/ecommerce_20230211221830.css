@@ -767,7 +767,8 @@ ion-icon {
             display: block;
         }
         
-        .mobile-menu nav>ul>li>a {
+        .mobile-menu nav>ul>li>a,
+        .li {
             position: relative;
             padding: 8px 0;
             font-weight: 500;
@@ -781,6 +782,9 @@ ion-icon {
             right: 0;
             top: 50%;
             transform: translateY(-50%);
+            /* display: flex;
+        align-items: center;
+        justify-content: center; */
         }
         
         .mobile-menu .child-trigger:hover {
@@ -812,7 +816,7 @@ ion-icon {
         }
         
         #mobile-menu>div>div.main.menu>nav>ul>li {
-            margin: 1rem 0;
+            margin: 2rem 0;
         }
         
         .has-child-trigger {
@@ -847,7 +851,7 @@ ion-icon {
         
         i {
             display: block;
-            font-size: 22px;
+            font-size: 28px;
             cursor: pointer !important;
         }
         /*-------------- MEDIA QUERIES---------------*/

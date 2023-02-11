@@ -638,7 +638,7 @@ ion-icon {
         }
         
         .mobile-menu {
-            font-weight: var(--fw600);
+            font-weight: ;
             height: 100vh;
             position: fixed;
             top: 0;
@@ -693,6 +693,8 @@ ion-icon {
             width: 35px;
             height: 35px;
             border-radius: var(--radius-circle);
+            /* background-color: var(--grey-color);
+        color: var(--flashwhite-color); */
             display: flex;
             justify-content: center;
             align-items: center;
@@ -718,6 +720,9 @@ ion-icon {
         .mobile-menu .child-trigger:hover {
             background-color: var(--light-color);
         }
+        /* #mobile-menu>div>div.main.menu>nav>ul>li>ul {
+    padding-left: 20px;
+} */
         
         .mobile-menu .button {
             display: flex;
@@ -758,9 +763,10 @@ ion-icon {
             display: flex;
             flex-direction: column;
         }
-        /* .mobile-menu nav>ul {
+        
+        .mobile-menu nav>ul {
             padding: 20px 0;
-        } */
+        }
         
         .mobile-logo nav li :where(li,
         a) {
@@ -769,7 +775,7 @@ ion-icon {
         
         .mobile-menu nav>ul>li>a {
             position: relative;
-            padding: 8px 0;
+            padding: 12px 0;
             font-weight: 500;
             transition: var(--transition-color);
         }
@@ -781,6 +787,9 @@ ion-icon {
             right: 0;
             top: 50%;
             transform: translateY(-50%);
+            /* display: flex;
+        align-items: center;
+        justify-content: center; */
         }
         
         .mobile-menu .child-trigger:hover {
@@ -812,7 +821,7 @@ ion-icon {
         }
         
         #mobile-menu>div>div.main.menu>nav>ul>li {
-            margin: 1rem 0;
+            margin: 2rem 0;
         }
         
         .has-child-trigger {
@@ -847,7 +856,7 @@ ion-icon {
         
         i {
             display: block;
-            font-size: 22px;
+            font-size: 28px;
             cursor: pointer !important;
         }
         /*-------------- MEDIA QUERIES---------------*/
@@ -855,7 +864,7 @@ ion-icon {
         @media (max-width:320px) {
             i {
                 display: block;
-                font-size: 2px;
+                font-size: 30px;
                 cursor: pointer !important;
             }
             .mobile-menu .wrap {
