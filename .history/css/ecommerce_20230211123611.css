@@ -538,7 +538,7 @@ h4 {
 .search-container {
     position: fixed;
     inset: 0;
-    height: 100vh;
+    height: ;
     display: flex;
     align-items: center;
     justify-content: center;
