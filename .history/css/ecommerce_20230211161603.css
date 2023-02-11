@@ -726,6 +726,8 @@ ion-icon {
         border-radius: 5px;
         width: 100%;
         text-align: center;
+        margin-block-end: 20px;
+        x
     }
     
     .mobile-menu .button a:first-child {
@@ -736,7 +738,6 @@ ion-icon {
     .mobile-menu .button a:last-child {
         background-color: var(--footer-color);
         color: var(--flashwhite-color);
-        margin-block-end: 20px;
     }
     
     .mobile-menu .button a:hover:last-child {

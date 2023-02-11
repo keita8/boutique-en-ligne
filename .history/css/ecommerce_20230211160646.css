@@ -116,7 +116,7 @@
         /* background-color: var(--flashwhite-color); */
     }
     
-     :focus-visible {
+    :focus-visible {
         outline-offset: 4px;
     }
     /* a,
@@ -156,27 +156,27 @@ ion-icon {
         font-style: normal;
     }
     
-     ::-webkit-scrollbar {
+    ::-webkit-scrollbar {
         width: .5px;
     }
     
-     ::-webkit-scrollbar-track {
+    ::-webkit-scrollbar-track {
         background-color: transparent;
     }
     
-     ::-webkit-scrollbar-thumb {
+    ::-webkit-scrollbar-thumb {
         background-color: var(--grey-color);
     }
     
-     ::-webkit-scrollbar {
+    ::-webkit-scrollbar {
         width: .5px;
     }
     
-     ::-webkit-scrollbar-track {
+    ::-webkit-scrollbar-track {
         background-color: transparent;
     }
     
-     ::-webkit-scrollbar-thumb {
+    ::-webkit-scrollbar-thumb {
         background-color: var(--grey-color);
     }
     
@@ -415,7 +415,7 @@ ion-icon {
         display: none;
     }
     
-     :where(.header-left,
+    :where(.header-left,
     .header-right) li {
         display: flex;
         align-items: center;
@@ -652,7 +652,6 @@ ion-icon {
         /* align-items: center; */
         height: 100%;
         padding-left: 0;
-        padding-top: 0;
         /* margin-block-end: 0; */
         /* padding-inline-start: 10px; */
         pointer-events: auto;
@@ -698,7 +697,11 @@ ion-icon {
     }
     
     .mobile-menu .child-trigger {
+        /* position: absolute;*/
         color: var(--dark-color);
+        display: flex;
+        justify-content: center;
+        align-items: center;
         width: 20px;
         height: 20px;
         border-radius: var(--radius-circle);
@@ -714,8 +717,8 @@ ion-icon {
     .mobile-menu .button {
         display: flex;
         flex-direction: column;
-        max-width: inherit;
-        min-width: inherit;
+        max-width: 360px;
+        min-width: 360px;
         gap: 20px;
     }
     
@@ -736,7 +739,6 @@ ion-icon {
     .mobile-menu .button a:last-child {
         background-color: var(--footer-color);
         color: var(--flashwhite-color);
-        margin-block-end: 20px;
     }
     
     .mobile-menu .button a:hover:last-child {
@@ -790,6 +792,8 @@ ion-icon {
     }
     
     .mobile-menu .mobile-logo {
+        /* background-color: cyan; */
+        /* margin-block-start: 15px; */
         display: flex;
         justify-content: space-around;
         align-items: center;
@@ -797,6 +801,7 @@ ion-icon {
     
     .mobile-logo .branding {
         margin-right: auto;
+        line-height: inherit;
         font-size: var(--fs-6);
         font-family: var(--second-font);
         font-size: 30px;
@@ -809,7 +814,9 @@ ion-icon {
         margin: 2rem 0;
     }
     
-    .has-child a>.has-child-trigger {}
+    .has-child-trigger {
+        display: flex;
+    }
     /*-------------- MEDIA QUERIES---------------*/
     
     @media (min-width: 992px) {

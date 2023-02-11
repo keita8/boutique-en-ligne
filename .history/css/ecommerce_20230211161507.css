@@ -717,6 +717,7 @@ ion-icon {
         max-width: inherit;
         min-width: inherit;
         gap: 20px;
+        m
     }
     
     .mobile-menu .button a {
@@ -736,7 +737,6 @@ ion-icon {
     .mobile-menu .button a:last-child {
         background-color: var(--footer-color);
         color: var(--flashwhite-color);
-        margin-block-end: 20px;
     }
     
     .mobile-menu .button a:hover:last-child {
