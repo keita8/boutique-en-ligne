@@ -859,7 +859,7 @@ ion-icon {
     @media screen and (max-width:767px) {
         ion-icon {
             display: block;
-            font-size: 28px;
+            font-size: 20px;
         }
         .branding {
             margin-top: 10px;
