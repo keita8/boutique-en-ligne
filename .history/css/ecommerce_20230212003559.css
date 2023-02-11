@@ -853,7 +853,7 @@ ion-icon {
                 cursor: pointer !important;
             }
             .mobile-menu .wrap {
-                min-width: 100%;
+                min-width: 100;
                 max-width: max-content;
             }
             #page>header>div>div>div>div.header-right>div>ul>li:nth-child(1) {

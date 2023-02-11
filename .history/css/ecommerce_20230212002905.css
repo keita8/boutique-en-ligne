@@ -620,6 +620,10 @@ ion-icon {
         }
         /*-------------- MENU MOBILE---------------*/
         
+        .is_active {
+            padding-block: 20px;
+        }
+        
         .overlay {
             display: none;
         }
@@ -636,7 +640,7 @@ ion-icon {
             height: 100vh;
             position: fixed;
             top: 0;
-            left: -500px;
+            left: 0;
             right: 0;
             bottom: 0;
             pointer-events: none;
@@ -839,9 +843,8 @@ ion-icon {
             align-items: center;
         }
         
-        .mobile-menu.is_active {
+        .mobile-menu.active {
             visibility: visible;
-            left: 0px;
             transform: translateX(0px);
         }
         /*-------------- MEDIA QUERIES---------------*/
@@ -853,7 +856,7 @@ ion-icon {
                 cursor: pointer !important;
             }
             .mobile-menu .wrap {
-                min-width: 100%;
+                min-width: min-content;
                 max-width: max-content;
             }
             #page>header>div>div>div>div.header-right>div>ul>li:nth-child(1) {

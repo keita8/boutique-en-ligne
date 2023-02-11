@@ -841,7 +841,6 @@ ion-icon {
         
         .mobile-menu.is_active {
             visibility: visible;
-            left: 0px;
             transform: translateX(0px);
         }
         /*-------------- MEDIA QUERIES---------------*/
@@ -853,7 +852,7 @@ ion-icon {
                 cursor: pointer !important;
             }
             .mobile-menu .wrap {
-                min-width: 100%;
+                min-width: min-content;
                 max-width: max-content;
             }
             #page>header>div>div>div>div.header-right>div>ul>li:nth-child(1) {

@@ -620,6 +620,10 @@ ion-icon {
         }
         /*-------------- MENU MOBILE---------------*/
         
+        .is_active {
+            padding-block: 20px;
+        }
+        
         .overlay {
             display: none;
         }
@@ -631,12 +635,12 @@ ion-icon {
         }
         
         .mobile-menu {
-            visibility: hidden;
+            display: none;
             font-weight: var(--fw600);
             height: 100vh;
             position: fixed;
             top: 0;
-            left: -500px;
+            left: 0;
             right: 0;
             bottom: 0;
             pointer-events: none;
@@ -839,21 +843,20 @@ ion-icon {
             align-items: center;
         }
         
-        .mobile-menu.is_active {
+        .mobile-menu.active {
             visibility: visible;
-            left: 0px;
-            transform: translateX(0px);
+            transform: translateX(360px);
         }
         /*-------------- MEDIA QUERIES---------------*/
         
         @media (max-width:320px) {
             i {
                 display: block;
-                font-size: 28px;
+                font-size: 22px;
                 cursor: pointer !important;
             }
             .mobile-menu .wrap {
-                min-width: 100%;
+                min-width: min-content;
                 max-width: max-content;
             }
             #page>header>div>div>div>div.header-right>div>ul>li:nth-child(1) {
@@ -868,11 +871,11 @@ ion-icon {
         
         @media screen and (max-width:767px) {
             .container.wide {
-                padding: 0px 5px;
+                padding: 0 5px;
             }
             i {
                 display: block;
-                font-size: 28px;
+                font-size: 25px;
                 cursor: pointer !important;
             }
             .branding {
@@ -888,7 +891,7 @@ ion-icon {
         @media (min-width:768px) and (max-width:1023px) {
             i {
                 display: block;
-                font-size: 28px;
+                font-size: 26px;
                 cursor: pointer !important;
             }
         }
@@ -896,7 +899,7 @@ ion-icon {
         @media (min-width: 992px) {
             i {
                 display: block;
-                font-size: 28px;
+                font-size: 26px;
                 cursor: pointer !important;
             }
             .menu-trigger {
