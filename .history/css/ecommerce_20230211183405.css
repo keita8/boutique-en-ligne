@@ -650,6 +650,7 @@ ion-icon {
         display: flex;
         flex-direction: column;
         justify-content: center;
+        align-items: center;
         height: 100%;
         padding-left: 0;
         padding-top: 0;
@@ -751,7 +752,8 @@ ion-icon {
         flex-direction: column;
     }
     
-    .mobile-menu nav>ul {
+    .mobile-menu nav>ul,
+    .mobile-logo .branding {
         padding: 20px 0;
     }
     
@@ -794,7 +796,7 @@ ion-icon {
     .mobile-menu .mobile-logo {
         display: flex;
         justify-content: space-between;
-        align-items: baseline;
+        align-items: center;
     }
     
     .mobile-logo .branding {

@@ -650,10 +650,10 @@ ion-icon {
         display: flex;
         flex-direction: column;
         justify-content: center;
+        /* align-items: center; */
         height: 100%;
         padding-left: 0;
         padding-top: 0;
-        overflow-y: auto;
         /* margin-block-end: 0; */
         /* padding-inline-start: 10px; */
         border-right: 1px solid var(--green-midnight);
@@ -736,7 +736,7 @@ ion-icon {
     .mobile-menu .button a:last-child {
         background-color: var(--footer-color);
         color: var(--flashwhite-color);
-        margin-block-end: 30px;
+        margin-block-end: 20px;
     }
     
     .mobile-menu .button a:hover:last-child {
@@ -751,7 +751,8 @@ ion-icon {
         flex-direction: column;
     }
     
-    .mobile-menu nav>ul {
+    .mobile-menu nav>ul,
+    .mobile-logo .branding {
         padding: 20px 0;
     }
     
@@ -793,8 +794,8 @@ ion-icon {
     
     .mobile-menu .mobile-logo {
         display: flex;
-        justify-content: space-between;
-        align-items: baseline;
+        justify-content: space-around;
+        align-items: center;
     }
     
     .mobile-logo .branding {
@@ -825,14 +826,17 @@ ion-icon {
     .child-trigger-btn {
         margin-left: auto;
     }
-    /* .mobile-menu .main.menu {
+    
+    .mobile-menu .main.menu {
         overflow-y: auto;
-    } */
+    }
     
     .mobile-menu .main.menu nav {
         flex-grow: 1;
-        margin-block-end: 100px;
+        margin-bottom-end: 100px;
     }
+    
+    .mobile-menu .main.menu nav {}
     
     .branding {
         margin-top: 10px;
@@ -842,10 +846,6 @@ ion-icon {
     /*-------------- MEDIA QUERIES---------------*/
     
     @media (max-width:320px) {
-        .mobile-menu .wrap {
-            min-width: min-content;
-            max-width: max-content;
-        }
         #page>header>div>div>div>div.header-right>div>ul>li:nth-child(1) {
             display: none;
         }

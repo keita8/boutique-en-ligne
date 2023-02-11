@@ -751,7 +751,8 @@ ion-icon {
         flex-direction: column;
     }
     
-    .mobile-menu nav>ul {
+    .mobile-menu nav>ul,
+    .mobile-logo .branding {
         padding: 20px 0;
     }
     
@@ -794,7 +795,7 @@ ion-icon {
     .mobile-menu .mobile-logo {
         display: flex;
         justify-content: space-between;
-        align-items: baseline;
+        align-items: center;
     }
     
     .mobile-logo .branding {

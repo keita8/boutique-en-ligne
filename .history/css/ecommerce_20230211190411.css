@@ -335,7 +335,8 @@ ion-icon {
     }
     /*-----------------SECTION ENTETE--------------*/
     
-    .inner-header {
+    .inner-header,
+    .mobile-logo {
         line-height: 80px;
     }
     
@@ -660,6 +661,7 @@ ion-icon {
         pointer-events: auto;
         padding: 10px;
         background-color: var(--flashwhite-color);
+        margin-block-start: 15px;
     }
     
     .mobile-menu .main.menu {

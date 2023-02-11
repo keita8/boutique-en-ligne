@@ -335,7 +335,8 @@ ion-icon {
     }
     /*-----------------SECTION ENTETE--------------*/
     
-    .inner-header {
+    .inner-header,
+    .mobile-logo {
         line-height: 80px;
     }
     
