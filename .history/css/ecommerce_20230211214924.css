@@ -670,7 +670,7 @@ ion-icon {
             border-right: 1px solid var(--green-midnight);
             pointer-events: auto;
             padding: 10px;
-            /* padding-block-start: 40px; */
+            padding-block-start: 40px;
             background-color: var(--flashwhite-color);
         }
         

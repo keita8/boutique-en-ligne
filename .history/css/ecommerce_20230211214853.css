@@ -670,7 +670,7 @@ ion-icon {
             border-right: 1px solid var(--green-midnight);
             pointer-events: auto;
             padding: 10px;
-            /* padding-block-start: 40px; */
+            padding-block-start: 40px;
             background-color: var(--flashwhite-color);
         }
         
@@ -748,12 +748,14 @@ ion-icon {
         .mobile-menu .button a:last-child {
             background-color: var(--footer-color);
             color: var(--flashwhite-color);
-            margin-block-end: 50px;
+            margin-block-end: 30px;
         }
         
         .mobile-menu .button a:hover:last-child {
             background-color: var(--flashwhite-color);
             color: var(--dark-color);
+            margin-block-end: 40px;
+            padding-block-end: 40px;
         }
         
         .mobile-menu .wrap .main-menu {
