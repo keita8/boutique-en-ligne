@@ -864,7 +864,7 @@ ion-icon {
     
     @media screen and (max-width:767px) {
         .container.wide {
-            padding: 0 5px;
+            padding: ;
         }
         i {
             display: block;
