@@ -830,10 +830,6 @@ ion-icon {
     .mobile-menu .main.menu {
         overflow-y: auto;
     }
-    
-    .mobile-menu .main.menu nav {
-        flex-grow: 1;
-    }
     /*-------------- MEDIA QUERIES---------------*/
     
     @media (min-width: 992px) {

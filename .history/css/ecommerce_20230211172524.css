@@ -832,7 +832,7 @@ ion-icon {
     }
     
     .mobile-menu .main.menu nav {
-        flex-grow: 1;
+        overflow-y: auto;
     }
     /*-------------- MEDIA QUERIES---------------*/
     

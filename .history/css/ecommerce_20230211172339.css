@@ -827,13 +827,7 @@ ion-icon {
         margin-left: auto;
     }
     
-    .mobile-menu .main.menu {
-        overflow-y: auto;
-    }
-    
-    .mobile-menu .main.menu nav {
-        flex-grow: 1;
-    }
+    .mobile-m
     /*-------------- MEDIA QUERIES---------------*/
     
     @media (min-width: 992px) {

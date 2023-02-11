@@ -831,8 +831,8 @@ ion-icon {
         overflow-y: auto;
     }
     
-    .mobile-menu .main.menu nav {
-        flex-grow: 1;
+    .mobile-menu .main.menu {
+        overflow-y: auto;
     }
     /*-------------- MEDIA QUERIES---------------*/
     
