@@ -551,7 +551,6 @@ h4 {
 .search-container.active {
     visibility: visible;
     opacity: 1;
-    height: 100vh;
 }
 
 .search-container .input-wrapper {

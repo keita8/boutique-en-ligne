@@ -538,6 +538,7 @@ h4 {
 .search-container {
     position: fixed;
     inset: 0;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -551,7 +552,6 @@ h4 {
 .search-container.active {
     visibility: visible;
     opacity: 1;
-    height: 100vh;
 }
 
 .search-container .input-wrapper {
