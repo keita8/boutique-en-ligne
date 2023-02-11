@@ -624,7 +624,7 @@ ion-icon {
         /*-------------- MENU MOBILE---------------*/
         
         .is_active {
-            padding-block: 20px;
+            padding-block: ;
         }
         
         .overlay {
@@ -645,6 +645,7 @@ ion-icon {
             right: 0;
             bottom: 0;
             pointer-events: none;
+            background-color: cyan;
         }
         
         .mobile-menu {
@@ -672,6 +673,7 @@ ion-icon {
             padding: 10px;
             padding-block-start: 40px;
             background-color: var(--flashwhite-color);
+            background-color: olive;
         }
         
         .mobile-menu .main.menu {
@@ -837,10 +839,9 @@ ion-icon {
         .child-trigger-btn {
             margin-left: auto;
         }
-        
-        .mobile-menu .main.menu {
-            overflow-y: auto;
-        }
+        /* .mobile-menu .main.menu {
+        overflow-y: auto;
+    } */
         
         .mobile-menu .main.menu nav {
             flex-grow: 1;

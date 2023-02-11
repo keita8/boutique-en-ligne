@@ -623,14 +623,6 @@ ion-icon {
         }
         /*-------------- MENU MOBILE---------------*/
         
-        .is_active {
-            padding-block: 20px;
-        }
-        
-        .overlay {
-            display: none;
-        }
-        
         #mobile-menu>div>div.main.menu>nav>ul {}
         
         .mobile-menu .wrap {
@@ -837,10 +829,9 @@ ion-icon {
         .child-trigger-btn {
             margin-left: auto;
         }
-        
-        .mobile-menu .main.menu {
-            overflow-y: auto;
-        }
+        /* .mobile-menu .main.menu {
+        overflow-y: auto;
+    } */
         
         .mobile-menu .main.menu nav {
             flex-grow: 1;
