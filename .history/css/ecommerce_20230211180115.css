@@ -846,11 +846,6 @@ ion-icon {
         #page>header>div>div>div>div.header-right>div>ul>li:nth-child(1) {
             display: none;
         }
-        .branding {
-            margin-top: 0px;
-            justify-content: center;
-            align-items: center;
-        }
     }
     
     @media (max-width:360px) {

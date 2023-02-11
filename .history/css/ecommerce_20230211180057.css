@@ -843,13 +843,8 @@ ion-icon {
     /*-------------- MEDIA QUERIES---------------*/
     
     @media (max-width:320px) {
-        #page>header>div>div>div>div.header-right>div>ul>li:nth-child(1) {
+        .header-right .list-inline ul:first-of-type {
             display: none;
-        }
-        .branding {
-            margin-top: 0px;
-            justify-content: center;
-            align-items: center;
         }
     }
     
