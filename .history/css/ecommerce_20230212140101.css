@@ -168,7 +168,7 @@ ion-icon {
     --ionicon-stroke-width: 24px;
     font-size: var(--fs-1);
     font-weight: var(--fw-800);
-    color: #000;
+    color: ;
 }
 
 input,
@@ -1139,12 +1139,6 @@ a) {
 }
 
 button.accordion-menu {
-    background-color: inherit;
-}
-
-.mobile-bottom-navigation .action-btn {
-    color: var(--footer-color);
-    font-weight: var(--fw600);
     background-color: inherit;
 }
 

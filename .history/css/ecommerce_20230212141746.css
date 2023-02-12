@@ -1144,7 +1144,7 @@ button.accordion-menu {
 
 .mobile-bottom-navigation .action-btn {
     color: var(--footer-color);
-    font-weight: var(--fw600);
+    font-weight: var(--fw);
     background-color: inherit;
 }
 
