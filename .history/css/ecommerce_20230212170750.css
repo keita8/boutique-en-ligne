@@ -1286,7 +1286,7 @@ button.accordion-menu {
 
 .sidebar .showcase-title {
     color: var(--dark-color);
-    font-size: var(--fs-7);
+    font-size: var(--fs-);
     font-weight: var(--fw-500);
     text-transform: uppercase;
     overflow: hidden;

@@ -1258,7 +1258,7 @@ button.accordion-menu {
 }
 
 .sidebar .showcase-heading {
-    font-size: var(--fs-4);
+    font-size: var(--fs-3);
     font-weight: var(--fw-600);
     color: var(--dark-color);
     text-transform: uppercase;
@@ -1281,32 +1281,7 @@ button.accordion-menu {
 }
 
 .sidebar .showcase-content {
-    width: calc(100% - 90px);
-}
-
-.sidebar .showcase-title {
-    color: var(--dark-color);
-    font-size: var(--fs-7);
-    font-weight: var(--fw-500);
-    text-transform: uppercase;
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    letter-spacing: 0.5px;
-}
-
-.sidebar .showcase-rating {
-    display: flex;
-    align-items: center;
-    /* justify-content: center; */
-    color: var(--marigold_75);
-    padding: 4px 0;
-}
-
-.sidebar .showcase-rating ion-icon {
-    color: var(--marigold_75);
-    font-size: 15px;
-    padding: 4px 0;
+    width: 0;
 }
 
 

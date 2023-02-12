@@ -616,7 +616,7 @@ h4 {
     display: flex;
     align-items: center;
     justify-content: center;
-    z-index: 100;
+    z-index: 6;
     background-color: inherit;
     visibility: hidden;
     opacity: 0;
@@ -1240,73 +1240,6 @@ button.accordion-menu {
     color: var(--dark-color);
     font-weight: var(--fw-600);
     padding: 2px 0;
-}
-
-.sidebar .product-name {
-    text-transform: lowercase;
-    margin-bottom: 0;
-}
-
-.sidebar-accordion-menu.active .add-icon,
-.sidebar-accordion-menu .remove-icon {
-    display: none;
-}
-
-.sidebar-accordion-menu .add-icon,
-.sidebar-accordion-menu.active .remove-icon {
-    display: block;
-}
-
-.sidebar .showcase-heading {
-    font-size: var(--fs-4);
-    font-weight: var(--fw-600);
-    color: var(--dark-color);
-    text-transform: uppercase;
-    letter-spacing: 0.8px;
-    margin-bottom: 35px;
-}
-
-.sidebar .showcase {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-}
-
-.sidebar .showcase:not(:last-child) {
-    margin-bottom: 15px;
-}
-
-.sidebar .showcase-img {
-    border-radius: 5px;
-}
-
-.sidebar .showcase-content {
-    width: calc(100% - 90px);
-}
-
-.sidebar .showcase-title {
-    color: var(--dark-color);
-    font-size: var(--fs-7);
-    font-weight: var(--fw-500);
-    text-transform: uppercase;
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    letter-spacing: 0.5px;
-}
-
-.sidebar .showcase-rating {
-    display: flex;
-    align-items: center;
-    /* justify-content: center; */
-    color: var(--marigold_75);
-    padding: 4px 0;
-}
-
-.sidebar .showcase-rating ion-icon {
-    color: var(--marigold_75);
-    font-size: 15px;
-    padding: 4px 0;
 }
 
 
