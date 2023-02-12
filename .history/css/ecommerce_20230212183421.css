@@ -384,10 +384,9 @@ h4 {
     }
 }
 
-a.sidebar-submenu-title,
 .dot-title,
 .showcase-title,
-.submenu-title {
+.submenu-ti {
     font-family: var(--primary-font);
     font-size: var(--fs14);
     font-weight: var(--fw600);

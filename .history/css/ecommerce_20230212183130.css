@@ -384,15 +384,12 @@ h4 {
     }
 }
 
-a.sidebar-submenu-title,
 .dot-title,
-.showcase-title,
-.submenu-title {
+.showcase-title {
     font-family: var(--primary-font);
     font-size: var(--fs14);
     font-weight: var(--fw600);
     line-height: 34px;
-    text-overflow: ellipsis;
 }
 
 .dot-title a {
@@ -1293,7 +1290,7 @@ button.accordion-menu {
     color: var(--dark-color);
     font-size: var(--fs-7);
     font-weight: var(--fw-500);
-    /* text-transform: uppercase; */
+    text-transform: uppercase;
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;

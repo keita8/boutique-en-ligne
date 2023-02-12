@@ -384,8 +384,7 @@ h4 {
     }
 }
 
-a.sidebar-submenu-title,
-.dot-title,
+a.si .dot-title,
 .showcase-title,
 .submenu-title {
     font-family: var(--primary-font);
