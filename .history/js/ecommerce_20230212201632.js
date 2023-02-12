@@ -1,6 +1,11 @@
 const searchTogglers = document.querySelectorAll('[data-search-toggler]');
 const searchBox = document.querySelector('[data-search-box]');
 
+const toggle = document.getElementById('toggleDark');
+const body = document.querySelector('body');
+
+toggle.addEventListener
+
 
 
 for (let i = 0; i < searchTogglers.length; i++) {

@@ -3,6 +3,7 @@ const searchBox = document.querySelector('[data-search-box]');
 
 
 
+
 for (let i = 0; i < searchTogglers.length; i++) {
     searchTogglers[i].addEventListener('click', function() {
         searchBox.classList.toggle('active');

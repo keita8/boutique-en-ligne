@@ -157,21 +157,18 @@ body {
 
 .overlay {
     position: fixed;
-    display: none;
-    width: 100%;
-    height: 100%;
     top: 0;
     left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0, 0, 0, 0.5);
-    z-index: 2;
-    cursor: pointer;
+    width: 100%;
+    height: 100vh;
+    background: hsla(0, 0);
+    pointer-events: none;
+    opacity: 0;
+    z-index: 15;
     transition: 0.5s ease;
 }
 
 .overlay.active {
-    display: block;
     opacity: 1;
     pointer-events: all;
 }

@@ -17,6 +17,8 @@ const mobileMenu = document.querySelectorAll('[data-mobile-menu]');
 const mobileMenuCloseBtn = document.querySelectorAll('[data-mobile-menu-close-btn]');
 const overlay = document.querySelector('[data-overlay]');
 
+console.log(overlay);
+
 for (let i = 0; i < mobileMenuOpenBtn.length; i++) {
     const mobileMenuCloseFunc = function() {
         mobileMenu[i].classList.remove('active');

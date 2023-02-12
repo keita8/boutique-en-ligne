@@ -170,9 +170,8 @@ body {
     transition: 0.5s ease;
 }
 
-.overlay.active {
-    display: block;
-    opacity: 1;
+.overlay.is_active {
+    dis opacity: 1;
     pointer-events: all;
 }
 
