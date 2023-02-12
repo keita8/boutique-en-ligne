@@ -947,8 +947,6 @@ a) {
 .mobile-bottom-navigation {
     /* background-color: var(--flashwhite-color); */
     position: fixed;
-    color: #000;
-    font-weight: var(--fw700);
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);

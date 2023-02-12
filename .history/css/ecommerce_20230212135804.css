@@ -948,7 +948,7 @@ a) {
     /* background-color: var(--flashwhite-color); */
     position: fixed;
     color: #000;
-    font-weight: var(--fw700);
+    font-weight: var(--fw);
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
