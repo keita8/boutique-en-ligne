@@ -1231,7 +1231,6 @@ button.accordion-menu {
     padding: 13px 0 8px;
     max-height: 122px;
     visibility: visible;
-    overflow-y: auto;
 }
 
 .sidebar-submenu-title {
