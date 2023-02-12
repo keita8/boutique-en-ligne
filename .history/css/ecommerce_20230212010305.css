@@ -847,7 +847,7 @@ ion-icon {
         
         .main.menu {
             margin-block: 70px;
-            margin-block-end: 20px;
+            margin-block-end: 70px;
         }
         /*-------------- MEDIA QUERIES---------------*/
         
@@ -887,10 +887,6 @@ ion-icon {
             }
             #page>header>div>div>div>div.header-right>div>ul>li:nth-child(1) {
                 display: none;
-            }
-            .mobile-menu .wrap {
-                min-width: 100%;
-                max-width: max-content;
             }
         }
         

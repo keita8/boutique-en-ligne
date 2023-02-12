@@ -888,10 +888,6 @@ ion-icon {
             #page>header>div>div>div>div.header-right>div>ul>li:nth-child(1) {
                 display: none;
             }
-            .mobile-menu .wrap {
-                min-width: 100%;
-                max-width: max-content;
-            }
         }
         
         @media (min-width:768px) and (max-width:1023px) {
