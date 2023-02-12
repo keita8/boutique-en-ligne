@@ -1355,9 +1355,7 @@ button.accordion-menu {
         max-width: max-content;
     }
     .header-left,
-    .header-right {
-        display: none;
-    }
+    .header
 }
 
 @media (min-width:768px) and (max-width:1023px) {

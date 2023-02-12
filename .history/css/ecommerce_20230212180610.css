@@ -1354,10 +1354,6 @@ button.accordion-menu {
         min-width: 100%;
         max-width: max-content;
     }
-    .header-left,
-    .header-right {
-        display: none;
-    }
 }
 
 @media (min-width:768px) and (max-width:1023px) {
@@ -1460,16 +1456,15 @@ nav.menu .sub-menu li {
         --mx-width: 1720px;
         --gutter: 40px;
     }
-    .mobile-bottom-navigation {
-        display: none;
-    }
 }
 
 @media (min-width: 1400px) {
     .mega-content {
         grid-template-columns: repeat(2, 1fr);
     }
-    .mobile-bottom-navigation {
-        display: none;
-    }
+}
+
+
+}
+
 }
