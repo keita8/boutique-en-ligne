@@ -1551,9 +1551,7 @@ main>div .heading {
     color: var(--dark-color);
 }
 
-.dot-image a {
-    display: inline;
-}
+.dot-image a {}
 
 
 /*-------------- MEDIA QUERIES---------------*/

@@ -104,17 +104,7 @@ const carousel = new Swiper('.carouselbox', {
         481: {
             slidesPerView: 2,
             slidesPerGroup: 1,
-            centeredSlides: true,
-        },
-        640: {
-            slidesPerView: 3,
-            slidesPerGroup: 3,
-            centeredSlides: true,
-        },
-        992: {
-            slidesPerView: 4,
-            slidesPerGroup: 4,
-            centeredSlides: true,
+            centeredSlides: false
         },
     }
 
