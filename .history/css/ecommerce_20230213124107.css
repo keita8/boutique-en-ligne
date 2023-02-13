@@ -1555,10 +1555,6 @@ main>div .heading {
     display: inline;
 }
 
-.carousel {
-    display: none;
-}
-
 
 /*-------------- MEDIA QUERIES---------------*/
 
@@ -1596,10 +1592,7 @@ main>div .heading {
 }
 
 @media screen and (max-width:767px) {
-    .carousel {
-        display: block;
-    }
-    .container.wide {
+    .c.container.wide {
         padding: 0px 5px;
     }
     i {
