@@ -1801,7 +1801,7 @@ main>div .heading {
     border-block-end: 1px solid var(--dark-color);
     padding-left: 15px;
     outline: none;
-    min-width: max-content;
+    min-width: ;
 }
 
 .footer .email-field:focus {
