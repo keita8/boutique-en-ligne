@@ -2057,7 +2057,7 @@ li a) {
 }
 
 .btn-link {
-    color: var(--dark-color);
+    color: var(--color);
     font-weight: var(--fw-600);
     display: flex;
     align-items: center;
@@ -2065,13 +2065,13 @@ li a) {
     transition: var(--transition-1);
 }
 
-.btn-link:is(:hover,
-:focus-visible) {
-    color: var(--dark-color);
-}
-
-.btn-link ion-icon {
-    color: var(--dark-color);
+.btn-link ion- {
+    color: var(--color);
+    font-weight: var(--fw-600);
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    transition: var(--transition-1);
 }
 
 

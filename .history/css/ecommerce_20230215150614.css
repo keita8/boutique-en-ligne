@@ -2067,7 +2067,7 @@ li a) {
 
 .btn-link:is(:hover,
 :focus-visible) {
-    color: var(--dark-color);
+    color: var(--green-midnight);
 }
 
 .btn-link ion-icon {
